@@ -1,0 +1,33 @@
+header: "Resumen semanal de ofertas — Zona Oeste (CM)"
+subject: "Ofertas semanales — Zona Oeste (tu sector)"
+to_email: "d.iglesias.chsf@gmail.com"
+from_email: "d.iglesias.chsf@gmail.com"
+
+output_html: "digest.html"
+output_txt: "digest.txt"
+
+lookback_days: 7
+
+feeds:
+  - "https://TU_FEED_RSS_INFOJOBS_1"
+  - "https://TU_FEED_RSS_SEPE_1"
+
+include_keywords:
+  - "marketing"
+  - "digital"
+  - "analítica"
+
+include_locations:
+  - "Pozuelo"
+  - "Majadahonda"
+  - "Las Rozas"
+  - "Boadilla"
+  - "Villaviciosa de Odón"
+  - "Torrelodones"
+  - "Galapagar"
+  - "Collado Villalba"
+
+exclude_keywords:
+  - "prácticas"
+  - "internship"
+  - "junior"
