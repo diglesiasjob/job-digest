@@ -2,8 +2,7 @@ name: Weekly Job Digest
 
 on:
   schedule:
-    # Cada lunes a las 08:00 Europa/Madrid (cron en UTC)
-    - cron: '0 6 * * 1'
+    - cron: '0 6 * * 1,5'   # L y V a las 06:00 UTC ≈ 07:00 (inv.) / 08:00 (verano) en Madrid
   workflow_dispatch:
 
 jobs:
