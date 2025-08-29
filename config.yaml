@@ -6,21 +6,16 @@ from_email: "d.iglesias.chsf@gmail.com"
 output_html: "digest.html"
 output_txt: "digest.txt"
 
-lookback_days: 7
+# Si envías lunes y viernes, recomiendo 4. Para semanal, usa 7.
+lookback_days: 4
 
 feeds:
-- "https://RSS_INFOJOBS_RETAIL_1"
+  - "https://RSS_INFOJOBS_RETAIL_1"
   - "https://RSS_INFOJOBS_EDUCACION_FISICA_1"
   - "https://RSS_EMPLEATE_RETAIL_1"
   - "https://RSS_EMPLEATE_EDUCACION_FISICA_1"
 
 include_keywords:
-  - "marketing"
-  - "digital"
-  - "analítica"
-  - "retail"
-  - "profesor educación física"
-  - "management"
   - "retail"
   - "tienda"
   - "dependiente"
@@ -49,12 +44,17 @@ include_keywords:
   - "TSEAS"
   - "TECO"
   - "TAFAD"
-  - "JD Ssports"
+  - "ecommerce manager"
+  - "marketing"
+  - "digital"
+  - "analítica"
+  - "JD Sports"
   - "Adidas"
   - "Nike"
   - "El Corte Inglés"
+  - "El Corte Ingles"
   - "Sprinter"
-  
+
 include_locations:
   - "Pozuelo"
   - "Majadahonda"
