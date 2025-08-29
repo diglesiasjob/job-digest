@@ -1,7 +1,7 @@
 header: "Resumen semanal de ofertas — Zona Oeste (CM)"
 subject: "Ofertas semanales — Zona Oeste (tu sector)"
-to_email: "d.iglesias.chsf@gmail.com"
-from_email: "d.iglesias.chsf@gmail.com"
+to_email: ""
+from_email: ""
 
 output_html: "digest.html"
 output_txt: "digest.txt"
